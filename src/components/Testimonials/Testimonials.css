@@ -7,7 +7,7 @@
 
 }
 
-.next-btn .back-btn{
+.next-btn {
   position: absolute;
   top: 50%;
   right:0;
@@ -16,4 +16,53 @@
   border-radius: 50%;
   cursor: pointer;
   background: #212ea0;
+}
+.back-btn{
+  position: absolute;
+  top: 50%;
+  right:0;
+  transform: translateY(-50%);
+  padding:15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #212ea0;
+}
+.back-btn{
+  right: auto;
+  left:0;
+
+}
+.slider{
+  overflow:hidden;
+
+
+}
+.slider ul{
+  display: flex;
+  width:200%;
+  overflow-x:hidden;
+  transition:0.5s;
+ 
+} 
+.slider ul li{
+  list-style:none;
+  width:50%;
+  padding:20px;
+
+}
+.slide{
+  box-shadow: 0 0 2opx rgba(0,0,0,0.5);
+  padding:40px;
+  border-radius: 10px;
+  color: #676767;
+  line-height:1.4;
+
+
+}
+.slide img{
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid #212ea0;
+
 }
