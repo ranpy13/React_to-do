@@ -43,3 +43,7 @@ a{
   margin-left:10px;
 
 }
+.btn.dark-btn{
+  background: blue;
+  color:#fff;
+}

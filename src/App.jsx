@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/hero';
-
-
-
-
-
-
+import Programs from './components/Program/Program';
+import Title from './components/Title/Title';
+import About from './components/About/About';
+import Campus from './components/Campus/Campus';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 const App = () => {
@@ -15,16 +14,20 @@ const App = () => {
     <div>
      <Navbar/>
      <Hero/>
+     <div className='container'>
+      <Title subTitle='Our Programs' title='Courses we offer..'/>
+     <Programs/>
+     <About/>
+     <Title subTitle='Gallery' title='Campus View'/>
+     <Campus/>
+     <Title subTitle='TESTIMOMIALS' title='See what students experienced..'/>
+     <Testimonials/>
 
-      
+     </div>
+   
+     
     </div>
-    
-   
     </>
-    
-    
-    
-   
   )
 }
 
