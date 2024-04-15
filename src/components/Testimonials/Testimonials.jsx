@@ -13,14 +13,14 @@ const Testimonials = () => {
   const slideForward = () => {
     if (tx > -50) {
       tx -= 25;
-    }
-    slider.current.style.tranform = `translateX(${tx}%)`;
+    } else tx = 0;
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
   const slideBackward = () => {
     if (tx < 0) {
       tx += 25;
-    }
-    slider.current.style.tranform = `translateX(${tx}%)`;
+    } else tx = -50;
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   return (
@@ -33,7 +33,7 @@ const Testimonials = () => {
         onClick={slideBackward}
       />
       <div className="slider">
-        <ul ref="slider">
+        <ul ref={slider}>
           <li>
             <div className="slide">
               <div className="user-info">
