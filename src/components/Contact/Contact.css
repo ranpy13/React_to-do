@@ -55,3 +55,13 @@
   margin : 20px 0;
   
 }
+@media(max-wodth:700px){
+  .contact{
+    display: block;
+
+  }
+  contact-col{
+    padding:20px
+
+  }
+}
