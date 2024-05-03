@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './Navbar.css'
 import logo from '../../assets/edusity_assets/logo.png'
 import menu_icon from '../../assets/edusity_assets/menu-icon.png'
@@ -29,7 +29,7 @@ const Navbar = () => {
 
         <li><Link to='campus' smooth={true} offset={-260} duration={500}> Campus</Link></li>
         <li><Link to='testimonials' smooth={true} offset={-260} duration={500}> Testimonials</Link> </li>
-        <li><Link to='contact' smooth={true} offset={-260} duration={500}><button className='btn'>Contact Us </button></Link> <button className='btn'>Contact Us </button></li>
+        <li><Link to='contact' smooth={true} offset={-260} duration={500}><button className='btn'>Contact Us </button></Link></li>
 
         
       </ul>
