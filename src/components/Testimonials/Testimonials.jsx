@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import "./Testimonials.css";
 import next_icon from "../../assets/edusity_assets/next-icon.png";
 import back_icon from "../../assets/edusity_assets/back-icon.png";
@@ -49,7 +49,7 @@ const Testimonials = () => {
               </div>
               <p>
                 Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
+                decisions I&apos;ve ever made. The supportive community,
                 state-of-the-art facilities, and commitment to academic
                 excellence have truly exceeded my expectations.{" "}
               </p>
@@ -66,7 +66,7 @@ const Testimonials = () => {
               </div>
               <p>
                 Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
+                decisions I&apos;ve ever made. The supportive community,
                 state-of-the-art facilities, and commitment to academic
                 excellence have truly exceeded my expectations.{" "}
               </p>
@@ -83,7 +83,7 @@ const Testimonials = () => {
               </div>
               <p>
                 Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
+                decisions I&apos;ve ever made. The supportive community,
                 state-of-the-art facilities, and commitment to academic
                 excellence have truly exceeded my expectations.{" "}
               </p>
@@ -100,7 +100,7 @@ const Testimonials = () => {
               </div>
               <p>
                 Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
+                decisions I&apos;ve ever made. The supportive community,
                 state-of-the-art facilities, and commitment to academic
                 excellence have truly exceeded my expectations.{" "}
               </p>
