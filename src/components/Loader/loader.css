@@ -1,0 +1,39 @@
+.container {
+  width: 500px;
+  height: 50px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.top {
+  height: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px solid black;
+  border-top: 3px solid white;
+  animation: spin 1s linear infinite;
+}
+
+.bottom {
+  position: relative;
+  left: -226px;
+  height: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 3px dashed black;
+  border-left: 3px solid white;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
